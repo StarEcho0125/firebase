@@ -1,0 +1,65 @@
+[debug] [2021-03-02T05:46:25.728Z] ----------------------------------------------------------------------
+[debug] [2021-03-02T05:46:25.734Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\administrator1\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-02T05:46:25.734Z] CLI Version:   9.5.0
+[debug] [2021-03-02T05:46:25.735Z] Platform:      win32
+[debug] [2021-03-02T05:46:25.735Z] Node Version:  v12.18.3
+[debug] [2021-03-02T05:46:25.737Z] Time:          Mon Mar 01 2021 21:46:25 GMT-0800 (Pacific Standard Time)
+[debug] [2021-03-02T05:46:25.738Z] ----------------------------------------------------------------------
+[debug] [2021-03-02T05:46:25.738Z] 
+[debug] [2021-03-02T05:46:25.752Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-02T05:46:25.754Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\administrator1\Downloads\Compressed\simple-reactjs-app-master
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using react-b7039. 
+[debug] [2021-03-02T05:46:32.455Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-b7039 [none]
+[debug] [2021-03-02T05:46:34.673Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-b7039 200
+[debug] [2021-03-02T05:46:34.674Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-b7039 {"projectId":"react-b7039","projectNumber":"863611587109","displayName":"React","name":"projects/react-b7039","resources":{"hostingSite":"react-b7039","realtimeDatabaseInstance":"react-b7039-default-rtdb"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2021-03-02T05:46:47.528Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-03-02T05:46:49.078Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-03-02T05:46:49.078Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.9","browserURL":"https://www.gstatic.com/firebasejs/8.2.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.9/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.9/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.9/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.9/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.9/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.9/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.9/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\administrator1\Downloads\Compressed\simple-reactjs-app-master is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=732020720&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-03-02T05:47:23.107Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"011a28d936f7b15f65f8","redirect_uri":"http://localhost:9005","state":"732020720"}
+[debug] [2021-03-02T05:47:28.205Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Mon, 01 Mar 2021 12:46:10 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"cf15bb09c8e20adb5a46da17d8f84146\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"DBB8:60DE:12A410:132C7B:603CE212"}
+[debug] [2021-03-02T05:47:28.213Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-03-02T05:47:30.600Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-03-02T05:47:30.600Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"ramazan821","id":78518491,"node_id":"MDQ6VXNlcjc4NTE4NDkx","avatar_url":"https://avatars.githubusercontent.com/u/78518491?v=4","gravatar_id":"","url":"https://api.github.com/users/ramazan821","html_url":"https://github.com/ramazan821","followers_url":"https://api.github.com/users/ramazan821/followers","following_url":"https://api.github.com/users/ramazan821/following{/other_user}","gists_url":"https://api.github.com/users/ramazan821/gists{/gist_id}","starred_url":"https://api.github.com/users/ramazan821/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ramazan821/subscriptions","organizations_url":"https://api.github.com/users/ramazan821/orgs","repos_url":"https://api.github.com/users/ramazan821/repos","events_url":"https://api.github.com/users/ramazan821/events{/privacy}","received_events_url":"https://api.github.com/users/ramazan821/received_events","type":"User","site_admin":false,"name":"Ramazan","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"I am a professional web developer.","twitter_username":null,"public_repos":11,"public_gists":0,"followers":0,"following":0,"created_at":"2021-02-04T02:22:39Z","updated_at":"2021-03-01T12:46:06Z","private_gists":0,"total_private_repos":5,"owned_private_repos":5,"disk_usage":73212,"collaborators":2,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as ramazan821 
+[info] 
